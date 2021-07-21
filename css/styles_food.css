@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: #454545;
+}
+
+h3{
+  width:10%;
+  position: relative;
+  top: 20%;
+  left: 90%;
+  cursor: pointer;
+}
+
+h3:before{
+  content: attr(data-count);
+  position:absolute;
+  color: black;
+  right: 16px;
+  font-size: 15px;
+}
+.burger{
+  width: 25%;
+  height: 25%;
+}
+.fries{
+  width: 25%;
+  height: 25%;
+}
+.coke{
+  width: 25%;
+  height: 25%;
+}
+.pepsi{
+  width: 25%;
+  height: 25%;
+}
+
+p{
+  margin: 5px;
+}
+
+button{
+  padding: 10px;
+  background: #2a52be;
+  color: #fafafa;
+}
+
+.top-container-2{
+  background-color: #2a52be;
+  padding-top: 10px;
+}
+.middle-container-2{
+  display: table;
+  padding: 0;
+  margin: 10px;
+  background-color: #DCDCDC;
+}
+
+
+.bottom-container{
+  background-color: #F8F8FF;
+  padding: 100px 0 20px;
+  text-align: right;
+}
+
+.leftbox{
+  float: left;
+  height: 300px;
+  width:300px;
+  display: block;
+  border: 1px solid white;
+  margin: 5px auto;
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+.middlebox{
+  float: left;
+  height: 300px;
+  width:300px;
+  display: block;
+  border: 1px solid white;
+  margin: 5px auto;
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+.rightbox{
+  float: right;
+  height: 300px;
+  width:300px;
+  display: block;
+  border: 1px solid white;
+  margin: 5px auto;
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+.bottombox{
+  float: right;
+  height: 300px;
+  width:300px;
+  display: block;
+  border: 1px solid white;
+  margin: 5px auto;
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+
+}
